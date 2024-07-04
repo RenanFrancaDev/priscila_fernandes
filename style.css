@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+main {
+  max-width: 1024pxpx;
+  margin: 0 auto;
+}
+
+section {
+  padding: 32px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 8px 0;
+}
+
+textarea {
+  height: 96px;
+  overflow-y: scroll;
+}
+
+input {
+  height: 24px;
+}
+
+select {
+  height: 40px;
+}
+
+button {
+  height: 48px;
+  width: 160px;
+  margin: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.quetionarios {
+  display: flex;
+  flex-direction: column;
+}
+
+.title_questionarios {
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.title_questionarios:hover {
+  cursor: pointer;
+}
+
+.container_questionarios > .form {
+  display: none;
+}
+
+.container_questionarios.open > .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_radio {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
